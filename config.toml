@@ -1,73 +1,52 @@
-baseURL = "https://relaxed-einstein-109b20.netlify.com/"
-title = "Ajulu's Thoughts"
-author = "Stephen Ajulu"
-copyright = "Copyright © 2008–2019, Stephen Ajulu; all rights reserved."
-paginate = 3
-languageCode = "en"
 DefaultContentLanguage = "en"
+author = "Stephen Ajulu"
+baseURL = "https://relaxed-einstein-109b20.netlify.com/"
+copyright = "Copyright © 2008–2019, Stephen Ajulu; all rights reserved."
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-
+languageCode = "en"
+paginate = 3
 theme = "casper3"
-
+title = "Ajulu's Thoughts"
+[[menu.main]]
+identifier = "author"
+name = "Author"
+url = "https://stephenajulu.com"
+weight = 3
+[[menu.main]]
+identifier = "image-credit"
+name = "Image Credit"
+url = "/image-credit/"
+weight = 2
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
 [params]
-  facebook = "https://facebook.com"
-  twitter = "https://twitter.com"
-  github = "https://github.com/jonathanjanssens"
-  description = "Just a demo site for the Casper3 theme ported to Hugo"
-  mainSections = ["post"]
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "image-credit"
-    name = "Image Credit"
-    url = "/image-credit/"
-    weight = 20
-  [[menu.main]]
-    identifier = "github-repo-theme"
-    name = "Get Theme on Github"
-    url = "https://github.com/jonathanjanssens/hugo-casper3"
-    weight = 30
-  [[menu.main]]
-    identifier = "author"
-    name = "Author Homepage"
-    url = "https://jonathanjanssens.com"
-    weight = 40
-
+description = "Just a demo site for the Casper3 theme ported to Hugo"
+facebook = "https://facebook.com"
+github = "https://github.com/jonathanjanssens"
+mainSections = ["post"]
+twitter = "https://twitter.com"
+[privacy.instagram]
+disabled = false
+simple = true
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+[privacy.vimeo]
+disabled = false
+simple = true
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+[services.instagram]
+disableInlineCSS = true
+[services.twitter]
+disableInlineCSS = true
 [taxonomies]
 category = "categories"
-tag = "tags"
 series = "series"
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
-
+tag = "tags"
