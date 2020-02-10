@@ -1,7 +1,7 @@
-baseURL = "https://gohugo.io/"
-title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+baseURL = "https://relaxed-einstein-109b20.netlify.com/"
+title = "Ajulu's Thoughts"
+author = "Stephen Ajulu"
+copyright = "Copyright © 2008–2019, Stephen Ajulu; all rights reserved."
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
